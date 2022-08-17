@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/lufga');
+* {
+    font-family: 'Lufga', sans-serif;                                                
+}
+
+.home{
+    background-color: #ECF1F8;
+    height: 600px;
+    margin: 0 50px;
+    border-radius: 50px;
+    padding: 92px 0 0 89px;
+    background-image: url("assets/banner_image.png");
+    background-repeat: no-repeat;
+    background-size: auto 600px;
+    background-position: bottom right;
+}
+
+.home h1 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 490px;
+}
+
+.home p {
+    width: 400px;
+}
+
+.search {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    width: 918px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 120px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+}
+ .form-group{
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+ }
+
+ .form-control {
+    border: none;
+    background: none;
+    width: 170px;
+ }
+
+ .line {
+    height: auto;
+    width: 2px;
+    background-color: grey;
+    vertical-align: middle;
+    margin: 0 30px;
+ }
+
+ .form-group button {
+   width: 40px;
+   height: 40px;
+   background-color: #1DAEFF;
+   border: none;
+   border-radius: 10px;
+ }
+
+ .fa-magnifying-glass {
+    color: white;
+ }

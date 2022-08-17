@@ -1,0 +1,11 @@
+/* For Tablets */   
+@media all and (max-width: 1000px) {
+
+  }
+  
+/* For Smartphones */
+@media all and (max-width: 670px) {
+.form-group {
+    width: 50%;
+}
+  }
