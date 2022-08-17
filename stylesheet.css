@@ -3,15 +3,17 @@
     font-family: 'Lufga', sans-serif;                                                
 }
 
-.home{
-    background-color: #ECF1F8;
-    height: 600px;
+body {
     margin: 0 50px;
+}
+
+.home{
+    height: 600px;
     border-radius: 50px;
     padding: 92px 0 0 89px;
     background-image: url("assets/banner_image.png");
     background-repeat: no-repeat;
-    background-size: auto 600px;
+    background-size: cover;
     background-position: bottom right;
 }
 
@@ -68,4 +70,91 @@
 
  .fa-magnifying-glass {
     color: white;
+ }
+
+.location {
+    margin-top: 80px;
+}
+
+ .location-title h1 { 
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .container {
+    margin: 40px 40px;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+ 
+ }
+
+ .card {
+    height: 426px;
+    width: 25%;
+    margin: 0 15px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ .location-jakarta {
+    background-image: url("assets/landmark_jakarta.jpeg");
+ }
+
+ .location-bandung {
+    background-image: url("assets/landmark_bandung.webp");
+ }
+
+ .location-surabaya {
+    background-image: url("assets/landmark_surabaya.webp");
+ }
+
+ .location-bali {
+    background-image: url("assets/landmark_bali.jpeg");
+ }
+
+ .container p{
+    margin-top: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+ }
+
+ .recentAdd {
+    margin-top: 120px;
+    margin-left: 48px;
+ }
+
+ .box-product {
+    position: relative;
+    width: 585px;
+    height: 249px;
+    border-radius: 30px;
+    border: #DCDCEB 2px solid;
+ }
+
+ .product-img {
+    margin: 29px 36px;
+ }
+
+ .product-img img {
+    width: 170px;
+ }
+
+ .product-card {
+    width: 158px;
+    height: 191px;
+    border-radius: 20px;
+    background-size: cover;
+ }
+
+ .product-content {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    margin: 29px 36px;
  }
