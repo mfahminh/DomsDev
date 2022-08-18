@@ -1,0 +1,4 @@
+{
+    "liveshare.audio.joinCallBehavior": "accept",
+    "liveshare.audio.startCallOnShare": true
+}
